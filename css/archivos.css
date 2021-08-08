@@ -1,0 +1,175 @@
+
+ *{
+		margin: 0;
+		padding:0;
+
+ }
+
+/*configuracion de menù desplegable*/
+
+ body {background:#E57373;
+
+  margin: auto;
+
+     
+font-family:'Montserrat', sans-serif;}
+
+.contenedor{
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+nav{background-color:orange;
+width: 100%;
+height: 5rem;
+display: flex;
+justify-content: space-around;
+}
+
+nav ul{
+	float: left;
+  display: flex;
+	
+}
+
+nav ul li{
+	float: left;
+	list-style: none;
+	position: relative;
+}
+
+nav h3 { padding: 1rem 1rem;
+float: left;
+align-self: center; }
+
+nav ul li a {display: block;
+padding: 0 2rem;
+line-height: 5rem;
+color: #0a0a0a;
+text-decoration: none;}
+
+nav ul li ul{
+	display: none;
+	position: absolute;
+	background-color:yellow;
+}
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul li{
+	width: 100%;
+}
+
+nav ul li ul a {
+	padding: 1rem 2rem;
+	line-height: unset;
+	white-space: nowrap;
+}
+
+nav ul li ul li a:hover{
+	background-color: #efefef;
+}
+
+
+body
+
+ .image-fondo {
+      background-image: url("../imagenes/imagen1.jpg");
+      background-size: cover;
+        }
+
+      .cabecera{
+      color: black;
+      height: 600px;
+      line-height: 200px;
+      text-align: center;
+      vertical-align: middle;
+      text-shadow: #111 0px 0px 10px;
+      }
+
+
+
+     .main .articles {
+      width: 70%;
+      padding: 20px;
+      margin-right: 2.5%;
+      float: left;
+      box-sizing: border-box;
+     }
+     
+     .main .articles article {
+      padding: 20px;
+      background:#BCAAA4 ;
+      margin-bottom: 20px;
+      clear: both;
+     }
+
+
+     .main  img {
+      width: 100%;
+      height:auto;
+     }
+
+
+    
+      aside {
+        margin:0;
+        width: 26%;
+        float:right;
+        padding: 20px;
+        box-sizing: border-box;
+       
+      }
+      
+      video {
+    width:100%;
+       }
+
+      footer{background:pink;
+        clear: both;
+       padding: 10px 0px;
+       text-align: center;}
+
+   @media screen and(max-width:768px){
+    .main{width: 100%;
+
+    }
+    aside{
+      width: 100%;
+    }
+   }
+
+
+   @media screen and(max-width:400px){
+    .contenedor{
+      width: 100%;
+    }
+    aside{
+      display: none;
+    }
+ 
+ @media (max-width: 768){
+  nav{background: #FED590;
+    flex-direction: column;
+
+  }
+  .nav-enlace{
+    margin: 10px 0;
+   }
+  }
+ }
+
+ /* juego */
+ .juego {
+  background-color: rgb(253, 159, 217);
+  text-align: center;
+  margin: 64px 0 0 0;
+}
+canvas{
+  border: solid 8px rgb(95, 92, 92);
+  background: linear-gradient(
+      0deg,
+      rgb(231, 148, 180) 0%,
+      rgb(80, 214, 185) 100%
+  );
+}

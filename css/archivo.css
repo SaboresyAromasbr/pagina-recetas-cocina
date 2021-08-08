@@ -1,0 +1,117 @@
+body{
+  background-image: url(../imagenes/imagen30.jpg);
+  background-size: 100vw 100vh ;/*100% de alto y ancho de ventana*/
+  background-attachment: fixed;
+  margin:0;
+}
+form{
+  width: 450px;
+  margin: auto;
+  background: rgba(238, 235, 235, 0.4);
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+h2{
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 17px;
+  border: none;
+
+}
+textarea{
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+#boton{
+  background:#31384A;
+  color:#fff;
+  padding: 20px;
+}
+
+#boton:hover{
+cursor: pointer;  ;
+}
+ @media(max-width:480px){
+form{
+  width: 100%;
+}
+ }
+
+
+
+
+
+
+/*menu de navegacion*/
+nav{background-color:orange;
+width: 100%;
+height: 5rem;
+display: flex;}
+
+nav ul{
+  float: left;
+  
+}
+
+nav ul li{
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav h3 { padding: 1rem 1rem;
+float: left;
+align-self: center; }
+
+nav ul li a {display: block;
+padding: 0 2rem;
+line-height: 5rem;
+color: #0a0a0a;
+text-decoration: none;}
+
+nav ul li ul{
+  display: none;
+  position: absolute;
+  background-color:yellow;
+  border: 1px solid:gray
+
+  ;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul li ul li{
+  width: 100%;
+}
+
+nav ul li ul a {
+  padding: 1rem 2rem;
+  line-height: unset;
+  white-space: nowrap;
+}
+
+nav ul li ul li a:hover{
+  background-color: #efefef;
+}
+
+
+
+      footer{background:pink;
+        clear: both;
+       padding: 10px 0px;
+       text-align: center;}
+
+
+   
